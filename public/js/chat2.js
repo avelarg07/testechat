@@ -1,5 +1,5 @@
 console.log('conectado');
-const socket = new WebSocket("ws://localhost:3000");
+const socket = new WebSocket("wss://://onrender.com");
 
 const usuario = "456"
 
