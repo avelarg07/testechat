@@ -130,3 +130,6 @@ app.get('/api/mensagens', async(req, res) => {
 server.listen(3000, '0.0.0.0', () => {
     console.log('servidor ligado!');
 })
+
+
+module.exports = app;
