@@ -131,5 +131,5 @@ server.listen(3000, '0.0.0.0', () => {
     console.log('servidor ligado!');
 })
 
-
+//teste
 module.exports = app;
