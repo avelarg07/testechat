@@ -1,0 +1,19 @@
+#mensagens{
+    border: 2px solid rgb(0, 0, 0);
+    width: 60%;
+    min-height: 50px;
+    height: auto;
+}
+
+
+
+.texto_remetente{
+    text-align: right;
+    background-color: aqua;
+}
+
+.texto_destinatario{
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
