@@ -27,7 +27,7 @@ async function buscarMensagens(){
 
 buscarMensagens();
 
-const socket = new WebSocket("https://testechat-xi.vercel.app");
+const socket = new WebSocket("ws://testechat-xi.vercel.app");
 
 socket.onopen = () => {
     console.log('conectando com o protocolo');
